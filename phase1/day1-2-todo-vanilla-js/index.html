@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 ToDo</h1>
+            <p>第一个 Javascript 实战项目</p>
+        </header>
+
+        <main>
+            <section class="add-todo">
+                <form id="todoForm">
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="todoInput" 
+                            placeholder="输入新的待办事项..." 
+                            required
+                        >
+                        <select id="prioritySelect">
+                            <option value="low">P2</option>
+                            <option value="medium" selected>P1</option>
+                            <option value="high">P0</option>
+                        </select>
+                        <button type="submit">添加</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="filter-section">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="pending">待完成</button>
+                    <button class="filter-btn" data-filter="completed">已完成</button>
+                </div>
+                <div class="stats">
+                    <span id="totalCount">总计: 0</span>
+                    <span id="pendingCount">待完成: 0</span>
+                    <span id="completedCount">已完成: 0</span>
+                </div>
+            </section>
+
+            <section class="todo-list">
+                <ul id="todoList"></ul>
+                <div id="emptyState" class="empty-state">
+                    <p>🎉 暂无待办事项，添加一个开始吧！</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Day 1-2: ES6+ 语法实战 | 学习目标：箭头函数、解构、模板字符串、Promise、async/await</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

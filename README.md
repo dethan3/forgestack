@@ -29,19 +29,19 @@ forgestack/
 
 ## 🚀 快速开始
 
-1. **查看学习计划**: 阅读 [学习计划文档](./JavaScript-TypeScript-学习计划.md)
+1. **查看学习计划**: 阅读 [JavaScript & TypeScript 学习计划](learning_plan.md)
 2. **选择起点**: 根据你的基础选择合适的阶段开始
 3. **创建项目**: 在对应的 `phase` 目录下创建你的项目
 4. **记录学习**: 在 `notes/` 目录下记录学习心得
 
 ## 🎯 学习目标
 
-通过这个学习计划，你将能够：
-- ✅ 掌握现代 JavaScript 和 TypeScript 开发
-- ✅ 熟练使用 React 生态系统
-- ✅ 构建 Node.js 后端 API 服务
-- ✅ 完成全栈应用的开发和部署
-- ✅ 独立完成商业级项目并上线
+通过这个学习计划，希望你能够：
+- 掌握现代 JavaScript 和 TypeScript 开发
+- 熟练使用 React 生态系统
+- 构建 Node.js 后端 API 服务
+- 完成全栈应用的开发和部署
+- 独立完成商业级项目并上线
 
 ## 📈 学习进度
 
