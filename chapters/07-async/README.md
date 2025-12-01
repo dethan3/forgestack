@@ -2,24 +2,64 @@
 
 ## 📖 本章概述
 
-掌握 JavaScript 异步编程的核心概念和现代语法。
+掌握 JavaScript 异步编程的核心概念和现代语法，从回调到 Promise 再到 async/await。
 
 ## 🎯 学习目标
 
-- 理解事件循环和异步机制
-- 掌握 Promise 的使用
-- 熟练使用 async/await
-- 了解迭代器和生成器
+完成本章后，你将能够：
+
+- 理解事件循环和异步执行机制
+- 熟练使用 Promise 处理异步操作
+- 掌握 async/await 语法
+- 了解并发控制和错误处理
+- 使用生成器和异步迭代器
+
+## 📂 章节内容
+
+```
+07-async/
+├── concepts/                     # 概念文档
+│   ├── 01-event-loop.md          # 事件循环
+│   ├── 02-callbacks.md           # 回调函数
+│   ├── 03-promises.md            # Promise
+│   ├── 04-async-await.md         # async/await
+│   └── 05-advanced-async.md      # 高级异步模式
+│
+├── exercises/                    # 练习题
+│   ├── 01-promises.js
+│   ├── 02-async-await.js
+│   └── 03-concurrency.js
+│
+└── challenges/                   # 综合挑战
+    └── challenge-01/
+```
+
+## ⏱️ 预计时间
+
+- 概念阅读：3 小时
+- 练习题：3 小时
+- 综合挑战：1.5 小时
+
+总计约 **7.5 小时**
+
+## 🚀 开始学习
+
+1. 从 `concepts/01-event-loop.md` 开始阅读
+2. 完成对应的练习题
+3. 运行测试：`pnpm test:07`
+4. 完成综合挑战
 
 ## 🔑 核心 ES6+ 特性
 
 | 特性 | 说明 |
 |------|------|
 | Promise | 异步操作封装 |
+| Promise.all | 并行执行 |
+| Promise.race | 竞态 |
 | async/await | 同步风格异步代码 |
 | for await | 异步迭代 |
 | Generator | 生成器函数 |
 
 ---
 
-⏳ 等待开发...
+准备好了吗？开始阅读 [concepts/01-event-loop.md](./concepts/01-event-loop.md) →

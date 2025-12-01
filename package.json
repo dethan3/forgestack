@@ -19,8 +19,9 @@
     "test:10": "vitest run chapters/10-dom-events"
   },
   "devDependencies": {
-    "vitest": "^2.1.0",
-    "@vitest/ui": "^2.1.0"
+    "@vitest/ui": "^2.1.0",
+    "jsdom": "^27.2.0",
+    "vitest": "^2.1.0"
   },
   "keywords": [
     "javascript",

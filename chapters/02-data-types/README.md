@@ -2,24 +2,63 @@
 
 ## 📖 本章概述
 
-深入理解 JavaScript 的数据类型系统，包括原始类型和 ES6+ 新增类型。
+深入理解 JavaScript 的数据类型系统，掌握字符串和数组的常用方法。
 
 ## 🎯 学习目标
 
-- 掌握所有原始数据类型
-- 理解 `Symbol` 和 `BigInt`
-- 熟练使用可选链 `?.` 和空值合并 `??`
-- 掌握类型判断和转换
+完成本章后，你将能够：
+
+- 深入理解原始类型和引用类型的区别
+- 熟练使用字符串常用方法
+- 掌握数组的遍历、转换、查找方法
+- 理解类型转换的规则和陷阱
+- 了解 Symbol 和 BigInt 的使用场景
+
+## 📂 章节内容
+
+```
+02-data-types/
+├── concepts/                 # 概念文档
+│   ├── 01-primitives.md      # 原始类型深入
+│   ├── 02-strings.md         # 字符串方法
+│   ├── 03-arrays.md          # 数组方法
+│   ├── 04-type-coercion.md   # 类型转换
+│   └── 05-symbol-bigint.md   # Symbol 和 BigInt
+│
+├── exercises/                # 练习题
+│   ├── 01-strings.js
+│   ├── 02-arrays.js
+│   └── 03-type-checking.js
+│
+└── challenges/               # 综合挑战
+    └── challenge-01/
+```
+
+## ⏱️ 预计时间
+
+- 概念阅读：2 小时
+- 练习题：2.5 小时
+- 综合挑战：1 小时
+
+总计约 **5-6 小时**
+
+## 🚀 开始学习
+
+1. 从 `concepts/01-primitives.md` 开始阅读
+2. 完成对应的练习题
+3. 运行测试：`pnpm test:02`
+4. 完成综合挑战
 
 ## 🔑 核心 ES6+ 特性
 
 | 特性 | 说明 |
 |------|------|
+| 模板字符串方法 | `includes()`, `startsWith()`, `endsWith()` |
+| 数组方法 | `find()`, `findIndex()`, `includes()` |
+| 展开运算符 | `...` 用于数组和对象 |
 | `Symbol` | 唯一标识符 |
 | `BigInt` | 大整数 |
-| `?.` | 可选链操作符 |
-| `??` | 空值合并操作符 |
 
 ---
 
-⏳ 等待开发...
+准备好了吗？开始阅读 [concepts/01-primitives.md](./concepts/01-primitives.md) →
